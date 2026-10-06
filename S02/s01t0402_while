@@ -1,0 +1,27 @@
+"""
+escribe un programa que calcule
+la suma de los "n" numeros natules,
+por ejemplo si n = 100, el programa
+42 usando un ciclo while
+"""
+#importar la biblioteca de tiempo 
+import time 
+#crear las variable para
+#el programa
+n=100
+the_sum=0
+#tomando el t1
+timestamp_01=time.time()
+#iniciado la suma
+while (n>0):
+    the_sum=the_sum+n #100+99+98+...+
+    n=n-1
+
+#tomando el t2
+timestamp_02=time.time()
+
+#imprimimos la solucion 
+print(f"la suma es{the_sum}")
+
+elapsed_time=round((timestamp_02-timestamp_01)*1e6,2)
+print(f"el tiempo de ejecion:{elapsed_time}us")
