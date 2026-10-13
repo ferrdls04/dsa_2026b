@@ -27,3 +27,5 @@ my_array = arr.array('i', [10,20,300,3,7,40,55,88,700,3,11])
 for i in range(len(my_array)):
     if my_array[i] % 2 == 0:
      print(f"Elemento Num {i+1}: {my_array[i]}")
+
+     # B
