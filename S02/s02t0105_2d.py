@@ -42,5 +42,5 @@ print_table(table) #DRY
 del table[2]
 
 # Imprimiento mensaje
-print("---Despues de la eliminados de la fila 2---")
+print("---Despues de la eliminados de la fila 2 ---")
 print_table(table) #DRY
